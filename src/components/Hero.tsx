@@ -21,12 +21,14 @@ export default function Hero() {
       
       <div className="relative z-10 container mx-auto px-4 text-center text-white">
         <div className="max-w-4xl mx-auto">
-          <div className="flex items-center justify-center mb-6">
-            <Droplets className="h-12 w-12 text-cyan-300 mr-4" />
-            <h1 className="text-5xl md:text-7xl font-bold leading-tight">
+         <div className="flex flex-col sm:flex-row items-center justify-center mb-6 pt-20 text-center sm:text-left">
+          <Droplets className="hidden sm:block h-12 w-12 text-cyan-300 mb-2 sm:mb-0 sm:mr-4" />
+            <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold leading-tight">
               BlueChoice Pool
             </h1>
-          </div>
+        </div>
+
+
           <h2 className="text-3xl md:text-4xl font-light mb-6 text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-teal-300">
             Professional Pool Services & Maintenance
           </h2>
