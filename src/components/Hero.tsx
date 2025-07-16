@@ -11,22 +11,22 @@ export default function Hero() {
 
   return (
     <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      <div 
+      <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
           backgroundImage: 'url(https://images.pexels.com/photos/261105/pexels-photo-261105.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop)',
         }}
       />
       <div className="absolute inset-0 bg-gradient-to-br from-slate-900/70 via-teal-900/60 to-cyan-900/70" />
-      
+
       <div className="relative z-10 container mx-auto px-4 text-center text-white">
         <div className="max-w-4xl mx-auto">
-         <div className="flex flex-col sm:flex-row items-center justify-center mb-6 pt-20 text-center sm:text-left">
-          <Droplets className="hidden sm:block h-12 w-12 text-cyan-300 mb-2 sm:mb-0 sm:mr-4" />
-            <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold leading-tight">
+          <div className="flex flex-col sm:flex-row items-center justify-center mb-6 pt-20 text-center sm:text-left w-full sm:w-auto">
+            <Droplets className="hidden sm:block h-12 w-12 text-cyan-300 mb-2 sm:mb-0 sm:mr-4" />
+            <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold leading-tight w-full sm:w-auto">
               BlueChoice Pool
             </h1>
-        </div>
+          </div>
 
 
           <h2 className="text-3xl md:text-4xl font-light mb-6 text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-teal-300">
@@ -35,7 +35,7 @@ export default function Hero() {
           <p className="text-xl md:text-2xl mb-8 text-slate-200 max-w-3xl mx-auto font-light">
             Expert pool cleaning, maintenance, and remodeling services. Specializing in both chlorine and salt water pool systems with professional equipment repair and installation.
           </p>
-          
+
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
             <button
               onClick={scrollToContact}
